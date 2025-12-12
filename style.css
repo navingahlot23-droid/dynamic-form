@@ -203,8 +203,12 @@ input {
   .content-box .field-wrapper .fields, 
   .content-box .field-wrapper .inputField,
   .content-box .field-wrapper .radio-wrapper,
-  .content-box .field-wrapper .checkbox-wrapper {
+  .content-box .field-wrapper .checkbox-wrapper,
+  .form-wrapper {
     width: 100%;
     flex-direction: column;
+  }
+  .form-wrapper .content-box, .info-wrap, .form-wrapper .content-box {
+    width: 100%;
   }
 }
