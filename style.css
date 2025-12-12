@@ -184,3 +184,27 @@ input {
   border-radius: 8px;
   padding: 16px;
 }
+
+@media (max-width:767px) {
+  .body-container {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+  .content-wrap {
+    flex-direction: column;
+  }
+  .sidebar, .content-box {
+    width: 100%;
+  }
+  .content-box .field-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .content-box .field-wrapper .fields, 
+  .content-box .field-wrapper .inputField,
+  .content-box .field-wrapper .radio-wrapper,
+  .content-box .field-wrapper .checkbox-wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+}
